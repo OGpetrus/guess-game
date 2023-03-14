@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+  <!-- HEADER -->
+<h1 class="firsthead">the guess game</h1>
+  <div class="flex1">
+    <button class="check" id="again">Again !</button>
+    <h2>(between 1 and 20)</h2>
+  </div>
+  <h1>guesss my number !</h1>
+  <div class="relative">
+ <div class="border"></div>
+    <div class="absolute">?</div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="columns">
+    <!-- COLUMN1 -->
+    <div>
+      <div ><input type="text" placeholder="" id="entry"></div>
+      <button class="check" id="checkbutton">check</button>
+    </div>
+    <!-- COLUMN2 -->
+    <div class="column2">
+        <p id="para1">Start guessing ...</p>
+        <p id="score">🎈score:<span id="mainscore">20</span></p>
+        <p id="highscore">🎖highscore:<span id="hscore">0</span></p>
+    </div>
+  </div>
+</div>   
+    <script src="index.js"></script>
+</body>
+
+</html>

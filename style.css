@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100vh;
+    color: white;
+    margin: auto;
+}
+.container{
+width:  100%;
+margin: 0em auto ;
+padding: 1em 1em ;
+text-transform: capitalize;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthead{
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+.relative{
+    position: relative;
+}
+.border{
+    margin-top: 2em;
+    width: 100%;
+    height: 1em;
+    border-bottom: 2px solid white;
+}
+.absolute{
+    position: absolute;
+    background-color: white;
+    font-size: 2rem;
+    top: -.2em;
+    right: 45%;
+    width: 1.5em;
+    color: black;
+    text-align: center;
+}
+.columns{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    background-color: white;
+    font-size: 2rem;
+    width: 3.5em;
+    height: 1.5em;
+    color: black;
+   outline: none;
+    margin-bottom: .3em;
+    border: none;
+    text-align: center;
+}
+.column2 p{
+    margin-bottom: 1em;
+}
+.column2 p:nth-child(1){
+    margin-bottom: 2em;
+}
+.check{
+    width: 100px;
+    height: 50px;
+ align-items: center;
+ font-size: 1.5rem;
+ font-weight: bold;
+ box-shadow: 2px 2px 5px white;
+ 
+}
+.check:hover{
+    background-color: black;
+    color: white;
+}
